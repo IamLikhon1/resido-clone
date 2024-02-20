@@ -4,13 +4,13 @@ import React from 'react';
 import { FaUserCircle } from "react-icons/fa";
 const Navbar = () => {
     return (
-        <nav className='flex items-center justify-between pt-8 px-10'>
+        <nav className='flex items-center justify-between pt-8 px-36'>
             {/* left-side */}
-            <div className='flex items-center gap-8'>
+            <div className='flex items-center gap-10'>
                 {/* logo */}
                 <Image
-                    width={150}
-                    height={150}
+                    width={130}
+                    height={130}
                     src={"https://resido-v2.smartdemowp.com/wp-content/themes/resido/assets/images/logo.svg"}
                     alt='logo'
                 />
@@ -22,7 +22,7 @@ const Navbar = () => {
                 </div>
             </div>
             {/* right-side */}
-            <div className='flex items-center gap-2 text-blue-500 font-semibold text-lg'>
+            <div className='flex items-center gap-2 text-blue-500 font-semibold '>
                 <FaUserCircle className='text-2xl' />
                 <Link  href='/'>Signin</Link>
 
